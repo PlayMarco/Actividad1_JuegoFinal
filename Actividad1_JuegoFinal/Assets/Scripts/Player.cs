@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     private Vector3 direccionMov;
     private Vector3 direccionInput;
     private Vector3 velocidadVertical;
+    public Respawn respawn;
 
     private void OnEnable()
     {
@@ -84,4 +85,6 @@ public class Player : MonoBehaviour
         Quaternion rotacionObjetivo = Quaternion.LookRotation(direccionMov);
         transform.rotation = rotacionObjetivo;
     }
+
+
 }

@@ -17,7 +17,6 @@ public class Player : MonoBehaviour
     private Vector3 direccionMov;
     private Vector3 direccionInput;
     private Vector3 velocidadVertical;
-    public Respawn respawn;
 
     private void OnEnable()
     {
@@ -27,7 +26,7 @@ public class Player : MonoBehaviour
 
     private void Mover(Vector2 ctx)
     {
-        direccionInput = new Vector3 (ctx.x, 0, ctx.y);
+            direccionInput = new Vector3 (ctx.x, 0, ctx.y);      
     }
 
     private void Saltar()
@@ -43,7 +42,7 @@ public class Player : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+       //Cursor.lockState = CursorLockMode.Locked;
         characterController = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
     }

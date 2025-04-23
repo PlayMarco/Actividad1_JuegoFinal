@@ -14,7 +14,9 @@ public class InputManagerSO : ScriptableObject
     private void OnEnable()
     {
         controles = new InputSystem_Actions();
-        controles.Player.Enable();
+
+        EnablePlayer();
+
         controles.Player.Jump.started += Saltar;
         controles.Player.Move.performed += Mover;
         controles.Player.Move.canceled += Mover;
@@ -28,5 +30,17 @@ public class InputManagerSO : ScriptableObject
     private void Saltar(InputAction.CallbackContext ctx)
     {
         OnSalto?.Invoke();
+    }
+
+    public void EnablePlayer()
+    {
+        controles.UI.Disable();
+        controles.Player.Enable();
+    }
+
+    public void EnableUI()
+    {
+        controles.Player.Disable();
+        controles.UI.Enable();
     }
 }

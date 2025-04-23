@@ -2,19 +2,27 @@ using UnityEngine;
 
 public class Respawn : MonoBehaviour
 {
-    public Transform posRespawn;
-    public Transform posPlayer;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Trampas"))
         {
-            Muerte();
+            Muerte();         
+        }
+        if (other.CompareTag("Victoria"))
+        {
+            Victoria();
         }
     }
 
     public void Muerte() 
     {
-        posPlayer.position = posRespawn.position;
+        FindAnyObjectByType<GameOver>().MostrarGameover();
+    }
+
+    public void Victoria()
+    {
+        FindAnyObjectByType<GameOver>().MostrarVictoria();
     }
 
 }

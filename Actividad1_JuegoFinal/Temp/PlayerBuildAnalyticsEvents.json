@@ -1,0 +1,188 @@
+{
+  "player_build_data": [
+    {
+      "type": "playerBuildTimingData",
+      "msg": {
+        "build_event_id": "c743f649a4cc6534d952f9a2b5d611e2",
+        "build_player": 688560,
+        "preprocess_player": 206,
+        "produce_player_script_assemblies": 25645,
+        "build_scripts_dlls": 86,
+        "writing_asset_files": 632825,
+        "postprocess_built_player": 23586,
+        "node_summary_table": [
+          {
+            "name": "Csc",
+            "duration": 351
+          },
+          {
+            "name": "Csc",
+            "duration": 4919
+          },
+          {
+            "name": "Csc",
+            "duration": 2200
+          },
+          {
+            "name": "Csc",
+            "duration": 1018
+          },
+          {
+            "name": "Csc",
+            "duration": 1067
+          },
+          {
+            "name": "Csc",
+            "duration": 4011
+          },
+          {
+            "name": "Csc",
+            "duration": 389
+          },
+          {
+            "name": "Csc",
+            "duration": 1727
+          },
+          {
+            "name": "Csc",
+            "duration": 6403
+          },
+          {
+            "name": "Csc",
+            "duration": 2140
+          },
+          {
+            "name": "Csc",
+            "duration": 1767
+          },
+          {
+            "name": "Csc",
+            "duration": 383
+          },
+          {
+            "name": "Csc",
+            "duration": 2183
+          },
+          {
+            "name": "Csc",
+            "duration": 4199
+          },
+          {
+            "name": "Csc",
+            "duration": 1957
+          },
+          {
+            "name": "Csc",
+            "duration": 491
+          },
+          {
+            "name": "Csc",
+            "duration": 1666
+          },
+          {
+            "name": "Csc",
+            "duration": 3670
+          },
+          {
+            "name": "Csc",
+            "duration": 415
+          },
+          {
+            "name": "Csc",
+            "duration": 2031
+          },
+          {
+            "name": "Csc",
+            "duration": 758
+          },
+          {
+            "name": "Csc",
+            "duration": 4210
+          },
+          {
+            "name": "Csc",
+            "duration": 642
+          },
+          {
+            "name": "Csc",
+            "duration": 1274
+          },
+          {
+            "name": "Csc",
+            "duration": 528
+          },
+          {
+            "name": "Csc",
+            "duration": 817
+          },
+          {
+            "name": "Csc",
+            "duration": 187
+          },
+          {
+            "name": "Csc",
+            "duration": 3794
+          },
+          {
+            "name": "Csc",
+            "duration": 1871
+          },
+          {
+            "name": "Csc",
+            "duration": 1084
+          },
+          {
+            "name": "Csc",
+            "duration": 395
+          },
+          {
+            "name": "Csc",
+            "duration": 979
+          },
+          {
+            "name": "Csc",
+            "duration": 755
+          },
+          {
+            "name": "Csc",
+            "duration": 2136
+          },
+          {
+            "name": "Csc",
+            "duration": 1682
+          },
+          {
+            "name": "Csc",
+            "duration": 2144
+          },
+          {
+            "name": "Csc",
+            "duration": 1193
+          },
+          {
+            "name": "Csc",
+            "duration": 351
+          },
+          {
+            "name": "Csc",
+            "duration": 351
+          },
+          {
+            "name": "UnityLinker.exe",
+            "duration": 326
+          }
+        ]
+      },
+      "version": 1
+    },
+    {
+      "type": "unityLinkerData",
+      "msg": {
+        "build_event_id": "c743f649a4cc6534d952f9a2b5d611e2",
+        "node_executed": true,
+        "option_rule_set": "Copy"
+      },
+      "version": 1
+    }
+  ]
+}
